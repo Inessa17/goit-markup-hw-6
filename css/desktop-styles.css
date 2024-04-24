@@ -1,4 +1,5 @@
-/* =========== General styles =========== */
+/* =========== COMMON STYLES =========== */
+
 h1,
 h2,
 h3,
@@ -43,7 +44,8 @@ img {
   margin: 0 auto;
 }
 
-/* =========== Header styles =========== */
+/* =========== HEADER STYLES =========== */
+
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   margin-right: auto;
@@ -142,19 +144,20 @@ img {
   margin-left: auto;
 }
 
-/* =========== Hero Section styles =========== */
+/* =========== HERO STYLES =========== */
+
 .hero {
   max-width: 1440px;
   margin-right: auto;
   margin-left: auto;
-  background: #2e2f42;
+  background-color: #2e2f42;
   padding: 188px 0;
   background-size: cover;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../images/people-office.jpg");
+    url("../images/hero/background-desktop.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -201,7 +204,8 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-/* =========== Benefits Section styles =========== */
+/* =========== BENEFITS SECTION STYLES =========== */
+
 .benefits {
   padding: 120px 0;
 }
@@ -256,7 +260,8 @@ img {
   color: #434455;
 }
 
-/* =========== Team Section styles =========== */
+/* =========== TEAM SECTION STYLES =========== */
+
 .team {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -342,7 +347,8 @@ img {
   fill: #f4f4fd;
 }
 
-/* =========== Portfolio styles =========== */
+/* =========== PORTFOLIO STYLES =========== */
+
 .section-portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -424,6 +430,7 @@ img {
 }
 
 /* =========== /Footer styles =========== */
+
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -564,6 +571,7 @@ img {
 }
 
 /* =========== Backdrop styles =========== */
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -585,6 +593,7 @@ img {
 }
 
 /* =========== Modal window styles =========== */
+
 .modal {
   position: absolute;
   top: 50%;
@@ -635,6 +644,7 @@ img {
 }
 
 /* =========== Order form styles =========== */
+
 .form-title {
   font-weight: 500;
   font-size: 16px;
